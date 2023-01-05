@@ -1,5 +1,8 @@
 var btn = document.getElementById('btn-div');
 var container = document.querySelector('.div-menu');
+
+
+
 btn.addEventListener('click', function() {
     
   if(container.style.display === 'block') {
@@ -9,3 +12,4 @@ btn.addEventListener('click', function() {
       container.style.display = 'block';
   }
 });
+

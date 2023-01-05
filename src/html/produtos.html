@@ -14,7 +14,7 @@
 <body>
     <!-- div principal -->
     <div class="container">
-        <!-- Menu reponsivo -->
+        <!-- Menu responsivo -->
         <div class="div-menu">
             <ul class="menu-responsivo-list">
                 <li class="menu-responsivo-item">
@@ -151,6 +151,73 @@
         </nav>
         <!-- Contéudo principal da página -->
         <main>
+            
+            <!-- Filtro responsivo -->
+            <div class="div-btn-filtro-responsivo">
+                <button class="btn-filtro-responsivo" id="btn-responsivo"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-sliders" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11.5 2a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM9.05 3a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0V3h9.05zM4.5 7a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM2.05 8a2.5 2.5 0 0 1 4.9 0H16v1H6.95a2.5 2.5 0 0 1-4.9 0H0V8h2.05zm9.45 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm-2.45 1a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0v-1h9.05z"/>
+                  </svg><p class="titulo-filtro-responsivo">Filtrar</p>
+                </button>
+                
+                
+            </div>
+            <div class="filtro-responsivo">
+                <form action="#" class="form-filtro">
+                    <div>
+                        <fieldset class="div-filtro">
+                            <legend class="legenda-filtro">Marca</legend>
+                            <div>
+                                <input class="input-filtro" type="checkbox" name="marca" id="marca1" value="Marca 1">
+                                <label for="marca1">Marca 1</label>
+                            </div>
+                            <div>
+                                <input class="input-filtro" type="checkbox" name="marca" id="marca2" value="Marca 2">
+                                <label for="marca2">Marca 2</label>
+                            </div>
+                            <div>
+                                <input class="input-filtro" type="checkbox" name="marca" id="marca3" value="Marca 3">
+                                <label for="marca2">Marca 3</label>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div>
+                        <fieldset class="div-filtro">
+                            <legend class="legenda-filtro">Sabor</legend>
+                            <div>
+                                <input class="input-filtro" type="checkbox" name="sabor" id="sabor1" value="sabor 1">
+                                <label for="sabor1">Sabor 1</label>
+                            </div>
+                            <div>
+                                <input class="input-filtro" type="checkbox" name="sabor" id="sabor2" value="sabor 2">
+                                <label for="sabor2">Sabor 2</label>
+                            </div>
+                            <div>
+                                <input class="input-filtro" type="checkbox" name="sabor" id="sabor3" value="sabor 3">
+                                <label for="sabor2">Sabor 3</label>
+                            </div>
+                    </div>
+                    <div>
+                        <fieldset class="div-filtro">
+                            <legend class="legenda-filtro">Preço</legend>
+                            <div>
+                                <input class="input-filtro" type="checkbox" name="preco" id="preco3" value="25">
+                                <label for="preco1">Até R$ 25,00</label>
+                            </div>
+                            <div>
+                                <input class="input-filtro" type="checkbox" name="preco" id="preco2" value="25 a 50">
+                                <label for="preco2">R$ 25,00 a R$ 50,00</label>
+                            </div>
+                            <div>
+                                <input class="input-filtro" type="checkbox" name="preco" id="preco3" value="50 a 100">
+                                <label for="preco3">R$ 50,00 a R$ 100,00</label>
+                            </div>
+                    </div>
+                    <div class="div-btn-aplicar-filtro">
+                        <button class ="btn-aplicar-filtro" type="submit">Aplicar</button>
+                    </div>
+                </form>
+            </div>
+            
             <!-- Filtro -->
             <div class="filtro">
                 <form action="#" class="form-filtro">
@@ -284,7 +351,7 @@
         <!-- Rodapé -->
         <footer>
             <div class="sobre">
-                <p>O "Tropical Sorveteria" é um web site fictício de venda de sorvetes, trata-se do     projeto final da
+                <p>O "Tropical Sorveteria" é um web site fictício de venda de sorvetes, trata-se do projeto final da
                     disciplina Desenvolvimento Web Front-end, ministrada pelo professor Bruno Gomes no curso supeior de
                     Sistemas para internet do IFRN campus Canguaretama.
                 </p>
@@ -362,8 +429,9 @@
             </div>
         </footer>
     </div>
-    <!-- Script do menu reponsivo -->
+    <!-- Script do menu responsivo -->
     <script src="../js/script.js"></script>
+    <script src="../js/filtro.js"></script>
 </body>
 
 </html>
