@@ -96,7 +96,7 @@ nav {
 .nav-link {
   padding: 0 15px;
   text-decoration: none;
-  color: whitesmoke;
+  color: white
 }
 .nav-link:hover {
   color: whitesmoke;
@@ -104,10 +104,11 @@ nav {
 .div-menu {
   position: absolute;
   background-color: #ff899bde;
-  height: 100vh;
-  width: 70vw;
+  height: max-content;
+  width: 50%;
   display: none;
-  border-bottom-right-radius: 50pc;
+  border-bottom-right-radius: 5px;
+
 }
 .menu-responsivo-list {
   font-family: "29LT Azer", "monospace";
