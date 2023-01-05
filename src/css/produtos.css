@@ -1,0 +1,61 @@
+main {
+  grid-area: main;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.filtro {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  width: 20%;
+}
+.form-filtro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div-filtro{
+    padding: 10px 10px;
+    border: none;
+    border-bottom: 1px dotted rgb(179, 178, 178);
+    display: flex;
+    flex-direction: column;
+    margin: 20px; 
+}
+.div-filtro div {
+    margin: 2px;
+}
+.legenda-filtro {
+    font-size: 16px;
+    font-weight: bold;
+}
+.produtos {
+  width: 80%;
+}
+@media screen and (max-width: 860px) {
+  .card {
+    width: 29%;
+  }
+  .filtro {
+    width: 30%;
+  }
+  .produtos {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .filtro {
+    display: none;
+  }
+  .produtos {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 545px) {
+    .card {
+    width: 40%;
+    }
+  }
