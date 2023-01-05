@@ -32,6 +32,9 @@ main {
     font-size: 16px;
     font-weight: bold;
 }
+.input-filtro{
+  accent-color: #ff7186;
+}
 .produtos {
   width: 80%;
 }
