@@ -1,0 +1,60 @@
+
+/*Título do formulário*/
+.titulo-forms {
+    color: #727272;
+    text-align: center;
+    margin: 50px 20px 0;
+    font-family: "29LT Azer", "monospace";
+    font-size: 25px;
+}
+
+/*Corpo do formulário*/
+.dados-pessoais{
+
+}
+label {
+    display: block;
+}
+
+input {
+    padding: 0.6%;
+    width: 30%;
+}
+
+.estilo-forms {
+    margin-top: 1%;
+}
+
+.estilo-forms-01, .estilo-forms-02{
+    margin-top: 1%;
+    width: 40%;
+}
+
+.estilo-forms-02 {
+    
+}
+
+.forms-salvar {
+    background-color: #EB3752;
+    width: 31.3%;
+    height: 25px;
+    font-family: "29LT Azer";
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.forms-compras {
+    background-color: #24789D;
+    width: 31.3%;
+    height: 25px;
+    font-family: "29LT Azer";
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+/*Cabeçalho*/
+.logo {
+    width: 100%;
+    justify-content: flex-start;
+}
