@@ -9,6 +9,8 @@
     <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="../css/styel.css" />
     <link rel="stylesheet" href="../css/detalhe.css" />
+    <link rel="stylesheet" href="../css/produtos.css">
+
 </head>
 
 <body>
@@ -160,7 +162,7 @@
                     <div class="informacoes-produto">
                         <h2 class="nome-produto">Sorvete de Creme</h2>
                         <p class="descricao-produto">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                            Recusandae tempore assumenda ullam temporibus. Placeat quaerat est sint adipisci, iste</p>
+                            Recusandae tempore assumenda ullam temporibus.</p>
                     </div>
                 </div>
                 <div class="detalhe-secundario">
@@ -168,18 +170,69 @@
                         <h1 class="preco-produto">R$ 20,00</h1>
                         <small class="forma-pagamento">á vista no cartão de crédito</small>
                     </div>
-                    <div class="div-form-frete">
-                        <form action="#" method="#" class="form-frete">
-                            <div class="div-label-form">
-                                <label for="frete" class="label-form">calcular frete</label>
+                    <div class="div-form-produto">
+                        <form method="post" action="#" class="form-produto">
+                            <!-- Calcular frete -->
+                            <div class="div-frete">
+                                <div class="div-label-frete">
+                                    <label for="frete" class="label-frete">calcular frete</label>
+                                </div>
+                                <div class="div-input-frete">
+                                    <input class="input-frete" type="text" name="frete" id="frete"
+                                        maxlength="8" placeholder="Digite seu CEP"
+                                        onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+                                    <button type="submit" class="btn-frete">ok</button>
+                                </div>
                             </div>
-                            <div class="div-input-frete">
-                                <input class="input-frete" type="text" name="frete" id="frete" required maxlength="8" placeholder="Digite seu CEP"
-                                    onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
-                                <button type="submit" class="btn-frete">ok</button>
+                            <!-- Quantidade do produto -->
+                            <div class="div-quantidade">
+                                <div class="div-label-quantidade">
+                                    <label for="quantidade" class="label-quantidade">quantidade:</label>
+                                </div>
+                                <div class="div-input-quantidade">
+                                    <button type="button" class="btn-quantidade">-</button>
+                                    <input type="number" class="input-quantidade" name="quantidade" id="quantiade" value="1" min="1">
+                                    <button  type="button" class="btn-quantidade">+</button>
+                                </div>
                             </div>
                         </form>
                     </div>
+                    <button type="submit" class="btn-comprar-produto"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-bag-heart" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5Zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0ZM14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1ZM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" />
+                        </svg> 
+                        <p>Comprar</p>
+                    </button>
+                </div>
+            </div>
+            <div class="div-titulo-produtos">
+                <h3 class="titulo-produtos">Você também pode gostar disso</h3>
+            </div>
+            <div class="produtos">
+                <div class="card">
+                    <img src="../../images/cremas.png" alt="Sorvete" class="img-card">
+                    <p class="titulo-card">Sorvete de Creme</p>
+                    <p class="preco">R$ 20,00</p>
+                    <button type="submit" class="btn-comprar">Comprar</button>
+                </div>
+                <div class="card">
+                    <img src="../../images/sorvete2.png" alt="Sorvete" class="img-card">
+                    <p class="titulo-card">Sorvete de Mirtilo</p>
+                    <p class="preco">R$ 20,00</p>
+                    <button type="submit" class="btn-comprar">Comprar</button>
+                </div>
+                <div class="card">
+                    <img src="../../images/sorvete3.png" alt="Sorvete" class="img-card">
+                    <p class="titulo-card">Sorvete de Morango</p>
+                    <p class="preco">R$ 20,00</p>
+                    <button type="submit" class="btn-comprar">Comprar</button>
+                </div>
+                <div class="card">
+                    <img src="../../images/sorvete4.png" alt="Sorvete" class="img-card">
+                    <p class="titulo-card">Sorvete de Maracujá</p>
+                    <p class="preco">R$ 20,00</p>
                     <button type="submit" class="btn-comprar">Comprar</button>
                 </div>
             </div>
