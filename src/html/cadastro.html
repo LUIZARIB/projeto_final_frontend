@@ -4,56 +4,62 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="src/css/cadastro.css">
+        <link rel="stylesheet" href="../css/cadastro.css">
         <title>Cadastrar cliente</title>
     </head>
     <body>
-        <header>
-            <div class="logo">
-                <img src="images/logo.png" alt="Logo da sorveteria" class="logo-imagem">
-            </div>
-        </header> 
-        <main>
-            <div class="form">
-                <form action="destino.php" method="post">
-                    <h1>Crie seu cadastro</h1>
-                    <p> 
-                        <lable for="nome">Nome completo</lable> 
-                        <input type="text" name="nome_cadastrado" id="nome" required/>
-                    </p>
-                    <p> 
-                        <lable for="cpf">CPF</lable> 
-                        <input type="text" name="cpf_cadastrado" id="cpf" placeholder="Somente números"/>
-                    </p>
-                    <p> 
-                        <lable for="endereco">Endereço</lable> 
-                        <input type="text" name="endereco_cadastrado" id="endereco"/>
-                    </p>
-                    <p> 
-                        <lable for="nascimento">Data de Nascimento</lable> 
-                        <input type="date" name="data_nascimento" id="nascimento"/>
-                    </p>
-                    <p>
-                        <lable for="telefone">Telefone</lable> 
-                        <input type="number" name="telefone_cadastrado" id="telefone"/>
-                    </p>
-                    <p> 
-                        <lable for="senha">Senha</lable> 
-                        <input type="password" name="senha_cadastrada" id="senha"/>
-                    </p>
-                    <p>
-                        Deseja receber nossas promoções?<br/>
-                        <label for="sim">Sim</label>
-                        <input type="radio" name="gostando" id="sim" value="Sim"><br/>
-                        
-                        <label for="comcerteza">Não</label>
-                        <input type="radio" name="gostando" id="comcerteza" value="Com Certeza"><br/>
-                    
-                    </p>
-                    <button type="button">Cadastrar</button>
-                    <a href=""><p>Já tem cadastro?</p> entrar</a>
-                </form>
-            </div>
-        </main>
+        <div class="principal">
+            <header>
+                <div class="logo-1">
+                    <a href="../../index.html">
+                    <img src="../../images/logo.png" alt="Logo da sorveteria" class="logo-imagem"></a>
+                </div>
+            </header> 
+            <main>
+                
+                    <div class="form-1">
+                        <form action="#" method="post">
+                            <h2>Crie seu cadastro</h2> <br>
+                            <p> 
+                                <lable for="nome">Nome completo</lable> <br>
+                                <input type="text" name="nome_cadastrado" id="nome" required/>
+                            </p>
+                            <p> 
+                                <lable for="cpf">CPF</lable> <br>
+                                <input type="text" name="cpf_cadastrado" id="cpf" placeholder="Somente números"/>
+                            </p>
+                            <p> 
+                                <lable for="email">Email</lable> <br>
+                                <input type="text" name="email_cadastrado" id="email" required/>
+                            </p>
+                            <p> 
+                                <lable for="nascimento">Data de Nascimento</lable> <br>
+                                <input type="date" name="data_nascimento" id="nascimento" required/>
+                            </p>
+                            <p class="tel">
+                                <lable for="telefone">Telefone</lable> <br>
+                                <input type="tel" name="telefone_cadastrado" id="telefone" placeholder="(xx) xxxxx-xxxx" required/>
+                            </p>
+                            <p> 
+                                <lable for="senha">Senha</lable> <br>
+                                <input type="password" name="senha_cadastrada" id="senha" required/>
+                            </p>
+                            <p>
+                                Deseja receber nossas promoções? <br>
+                                <label for="sim">Sim</label>
+                                <input type="radio" name="gostando" id="sim" value="Sim"><br/>
+                                
+                                <label for="comcerteza">Não</label>
+                                <input type="radio" name="gostando" id="comcerteza" value="Com Certeza"><br/>
+                            
+                            </p>
+
+                            <button type="button" class="botao">CADASTRAR</button>
+                            <p>Já tem cadastro?<a href="file:///C:/projeto/projeto_final_frontend/src/html/perfil.html#"> entrar</a> </p><br>
+                        </form>
+                    </div>
+                </div>
+            </main>
+        </div>
     </body>
 </html>
