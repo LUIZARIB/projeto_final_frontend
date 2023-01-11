@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/styel.css">
         <link rel="stylesheet" href="../css/cadastro.css">
-        <title>Cadastrar cliente</title>
+        <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
+        <title>Cadastro</title>
     </head>
     <body>
         <div class="principal">
@@ -20,7 +21,7 @@
                 
                     <div class="form-1">
                         <form action="#" method="post">
-                            <h2>Crie seu cadastro</h2> <br>
+                            <h2 class="entrar">Crie seu cadastro</h2> <br>
                             <p> 
                                 <lable for="nome">Nome completo</lable> <br>
                                 <input type="text" name="nome_cadastrado" id="nome" required/>
@@ -29,18 +30,15 @@
                                 <lable for="cpf">CPF</lable> <br>
                                 <input type="text" name="cpf_cadastrado" id="cpf" placeholder="Somente números"/>
                             </p>
-                            <p> 
+                           
+                            <div class="data">
+                                <div class="menor">
+                                     <p> 
                                 <lable for="email">Email</lable> <br>
                                 <input type="text" name="email_cadastrado" id="email" required/>
-                            </p>
-                            <div class="data">
-                                <div>
-                                    <p> 
-                                    <lable for="nascimento">Data de Nascimento</lable> <br>
-                                    <input type="date" name="data_nascimento" id="nascimento" required/>
-                                    </p>
+                                </p>
                                 </div>
-                                <div>
+                                <div class="menor">
                                     <p>
                                     <lable for="telefone">Telefone</lable> <br>
                                     <input type="tel" name="telefone_cadastrado" id="telefone" placeholder="(xx) xxxxx-xxxx" required/>
@@ -48,21 +46,16 @@
                                 </div>
                             </div>
                             <p> 
+                                    <lable for="nascimento">Data de Nascimento</lable> <br>
+                                    <input type="date" name="data_nascimento" id="nascimento" required/>
+                                    </p>
+                            <p> 
                                 <lable for="senha">Senha</lable> <br>
                                 <input type="password" name="senha_cadastrada" id="senha" required/>
                             </p>
-                            <p>
-                                Deseja receber nossas promoções? <br>
-                                <label for="sim">Sim</label>
-                                <input type="radio" name="gostando" id="sim" value="Sim"><br/>
-                                
-                                <label for="comcerteza">Não</label>
-                                <input type="radio" name="gostando" id="comcerteza" value="Com Certeza"><br/>
                             
-                            </p>
-
-                            <button type="button" class="botao">CADASTRE-SE</button>
-                            <p>Já tem cadastro?<a href="file:///C:/projeto/projeto_final_frontend/src/html/perfil.html#">entrar</a> </p><br>
+                            <button type="button" class="botao">CADASTRAR</button>  
+                            <p class="entrar">Já tem cadastro?<a href="#">entrar</a> </p><br>
                         </form>
                     </div>
                 </div>

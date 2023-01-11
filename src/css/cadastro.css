@@ -32,29 +32,23 @@
 
 .botao
 {
-  display: flex;
-  border-radius: 5px;
+  justify-content: center;display: flex;
+  border-radius: 6px;
   background-color: #eb3752;
   border: none;
   color: white;
   padding: 10px;
-  margin: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-
-}
-header
-{
-  background-color: #e6eafd;
-  max-width: 100%;
+  width: 100%;
   
-}
 
+}
 input
 {
+
   margin-bottom: 15px;
   padding: 7px;
   margin-top: 6px;
+  width: 100%;
     
 }
 .data
@@ -67,4 +61,14 @@ input
   align-items:flex-end;
   max-width: 100%;
     
+}
+.menor
+{
+  display: flex;
+  width: 50% 50%;
+}
+.entrar
+{
+  text-align: center;
+  padding-top: 2px;
 }
