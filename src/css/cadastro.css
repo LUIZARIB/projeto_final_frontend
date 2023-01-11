@@ -1,21 +1,4 @@
-* 
-{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-.principal
-{
-  max-width: 100vw;
-  min-height: 100vh;
-  display: grid;
-  grid-template-areas:
-    "header"
-    "main";
-  grid-template-rows: 150px auto;
-  background-color: whitesmoke;
-  color: rgb(131, 121, 121);
-}
+
 .form-1
 {
   max-width: auto;
