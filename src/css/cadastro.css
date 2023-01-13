@@ -17,7 +17,8 @@
 
 .botao
 {
-  justify-content: center;display: flex;
+  justify-content: center;
+  display: flex;
   border-radius: 6px;
   background-color: #eb3752;
   border: none;
@@ -53,9 +54,33 @@ input
   display: flex;
   width: 50% 50%;
   gap: 4%;
+  justify-content: center;
 }
 .entrar
 {
   text-align: center;
   padding-top: 2px;
+}
+@media screen and (max-width: 390px)
+{ 
+  .logo 
+  {
+    width: 100%;
+  }
+  
+  .data
+    {
+      display: block;
+      justify-content: center;
+      max-width: 100%;
+    } 
+    input
+    {
+    
+      margin-bottom: 15px;
+      padding: 7px;
+      margin-top: 6px;
+      max-width: 100%;
+       
+    }
 }
