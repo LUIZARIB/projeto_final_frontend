@@ -80,7 +80,8 @@ input
       margin-bottom: 15px;
       padding: 7px;
       margin-top: 6px;
-      max-width: 100%;
+      width: auto;
+      
        
     }
 }
