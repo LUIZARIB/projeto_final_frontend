@@ -198,6 +198,10 @@ main {
   background-color: #eb3752;
   font-weight: bold;
   cursor: pointer;
+  text-decoration: none;
+  font-size: 12px;
+  width: 100%;
+  text-align: center;
 }
 .btn-comprar:hover {
   background-color: #e64961;
