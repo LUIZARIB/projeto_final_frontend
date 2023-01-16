@@ -12,57 +12,73 @@
     </head>
     <body>
         <div class="container">
-            <header>
-                <div class="logo">
-                    <a href="../../index.html">
-                    <img src="../../images/logo.png" alt="Logo da sorveteria" class="logo-imagem"></a>
-                </div>
-            </header> 
-            <main>
-                
-                <div class="form-1">
-                    <form action="#" method="post">
-                        <h2 class="entrar">Cadastro de produto</h2> <br>
-                        <div class="data">
-                            <div class="menor-1">
-                                <p> 
-                                    <lable for="nome">Nome</lable> <br>
-                                    <input class="inp" type="text" name="nome_cadastrado" id="nome" required/>
-                                </p>
-                                <p> 
-                                    <lable for="preco">Preço</lable> <br>
-                                    <input class="inp" type="text" name="preco_cadastrado" id="preco" required/>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="data">
-                            <div class="menor">
-                                <p> 
-                                    <lable for="marca">Marca</lable> <br>
-                                    <input type="text" name="marca_cadastrada" id="marca" required/>
-                                </p>
-                            </div>
-                            <div class="menor">
-                                <p>
-                                    <lable for="sabor">Sabor</lable> <br>
-                                    <input type="text" name="sabor_cadastrado" id="sabor" required/>
-                                </p>
-                            </div>
-                            <div class="menor">
-                                <p> 
-                                    <lable for="quantidade">Quantidade</lable> <br>
-                                    <input type="number" name="quantidade_cadastrada" id="quantidade" required/>
-                            </p>
-                            </div>
-                        </div>
-                            <p>
-                                <lable for="descricao">Descrição</lable> <br>
-                                <input class="input-1" type="text" name="descricao_cadastrada" id="descricao" required/>
-                            </p>
+        <header>
+            <div class="logo">
+                <a href="../../index.html">
+                <img src="../../images/logo.png" alt="Logo da sorveteria" class="logo-imagem"></a>
+            </div>
+        </header>
+        <main>
+            
+            <div class="form-1">
+                <form action="#" method="post">
+                    <h2 class="entrar">Cadastro de produto</h2> <br>
+                    <div class="data">
                         
-                        <button type="button" class="botao">CADASTRAR</button> 
-                    </form>
-                </div>
-            </main>
+                            <p> 
+                                <lable for="nome">Nome</lable> <br>
+                                <input class="inp" type="text" name="nome_cadastrado" id="nome" required/>
+                            </p>
+                            <p> 
+                                <lable for="preco">Preço</lable> <br>
+                                <input class="quant" type="text" name="preco_cadastrado" id="preco" required/>
+                            </p>
+                    </div>
+                    <div class="data-1">
+                        <div class="menor">
+                            <p> 
+                                <lable for="marca">Marca</lable> <br>
+                                <select class="select" id="marca" name="marca">
+                                    <option selected disabled>Selecione</option>
+                                    <option value="Nestle">Nestle</option>
+                                    <option value="Sterbom">Sterbom</option>
+                                    <option value="Chapinha">Chapinha</option>
+                                </select>
+                            </p>
+                        </div>
+                        <div class="menor">
+                            <p>
+                                <lable for="sabor">Sabor</lable> <br>
+                                <select class="select" id="sabor" name="sabor">
+                                    <option selected disabled>Selecione</option>
+                                    <option value="Chocolate">Chocolate</option>
+                                    <option value="Morango">Morando</option>
+                                    <option value="Creme">Creme</option>
+                                </select>
+                            </p>
+                        </div>
+                        <div class="menor"> 
+                            <p>
+                            <lable for="quantidade">Quantidade</lable> <br>
+                            <input class="quant" type="number" name="quantidade_cadastrada" id="quantidade" required/>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="foto">
+                        <p> 
+                            <lable for="foto">Foto</lable> <br>
+                            <input type="file" name="foto_cadastrada" id="foto" required/>
+                        </p>
+                    </div>
+                        <p>
+                            <lable for="descricao">Descrição</lable> <br>
+                            <input class="input-1" type="text" name="descricao_cadastrada" id="descricao" required/>
+                        </p>
+                    
+                    <button type="button" class="botao">CADASTRAR</button> 
+                </form>
+            </div>
+        </main>
+        </div>
     </body>
 </html>

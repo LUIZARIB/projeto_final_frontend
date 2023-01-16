@@ -4,30 +4,54 @@
    
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items:stretch;
-  max-width: 100%;
-  max-height: 100%;
+  justify-content: space-between;
+  align-items:center;
+  width: 40% 40% 20%;
+  height: 70px;
+  
     
 }
-.preco
+.data-1
 {
+   
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 3%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  width: 40% 40% 20%;
+  height: 70px;
+  
+    
 }
-.menor-1
+.menor
 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 3%;
+  margin-top: 23px;
+  
+}
+.p1
+{
+  display: flex;
+  justify-content:space-between ;
+  height: 32px;
+  gap: 4px;
+  width: 50px;
+  
+  
+  
 
 }
+
 .inp 
 {
-  width: 272px;
+  width: 300px;
+}
+.inp-0
+{
+  width: 30%;
 }
 input
 {
@@ -39,10 +63,18 @@ input
 .input-1
 {
   height: 60px;
+  
 }
-.entrar
+.quant
 {
-  padding-top: none;
+  width: 70px;
+}
+.select
+{
+  width: 127px;
+  height: 32px;
+  margin-top: 6px;
+  
 }
 .botao
 {
@@ -56,18 +88,34 @@ input
   width: 100%;  
 
 }
+.foto
+{
+  margin-top: 15px;
+  align-items: left;
+}
+
 @media screen and (max-width: 390px)
 {
   
-  
+  .menor-1
+  {
+    display: block;
+    
+  }
+  .inp-1
+  {
+    width: 275px;
+  }
+  .input-1
+  {
+    width: 275px;
+    height: 60px;
+  }
   .data
     {
       display: block;
       justify-content: center;
+      align-items: center;
     }
-    .marca
-    {
-      display: block;
-      justify-content: center;
-    }
+    
 }
