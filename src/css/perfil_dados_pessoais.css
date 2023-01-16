@@ -13,7 +13,7 @@ footer, nav {
     color: #727272;
     text-align: center;
     margin: 50px 20px 0;
-    font-family: "29LT Azer", "monospace";
+    font-family: "29LT Azer";
     font-size: 25px;
 }
 /*Corpo do formulário*/
@@ -27,6 +27,8 @@ footer, nav {
 }
 label {
     display: block;
+    font-family:"29LT Azer";
+    color: #727272;
 }
 
 input {
@@ -36,7 +38,6 @@ input {
     border-radius: 5px;
     border: none;
     border: 1px solid #727272;
-
 }
 
 .estilo-forms{
@@ -80,6 +81,10 @@ form{
     border: none;
     cursor: pointer;
     margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
 
 .compras {
@@ -95,6 +100,10 @@ form{
     cursor: pointer;
     margin-top: 25px;
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
 
 @media screen and (max-width:865px){
@@ -104,7 +113,8 @@ form{
     }
 
     .estilo-form-01{
-        width: 100%;
+        width: 97%;
+        margin-top: 4%;
     }
 
     form{
@@ -114,11 +124,20 @@ form{
     .estilo-forms, .estilo2{
         width:90%;
     }
+
+    .forms-salvar, .compras{
+        width: 85.2%;
+    }
+}
+
+.compras:hover, .forms-salvar:hover{
+    transform: scale(1.01);
+    transition: all 0.5s;
 }
 
 @media screen and (max-width:375px) {
     .dados-pessoais{
-        width: 100%;
+        width: 97%;
     }
 
     form{
@@ -126,7 +145,15 @@ form{
         padding: 0;
     }
 
+    .estilo-form-01{
+        margin-top: 8%;
+    }
+
     .estilo-forms, .estilo2{
         width:100%;
     }    
+
+    .forms-salvar, .compras{
+        width: 92.2%;
+    }
 }
