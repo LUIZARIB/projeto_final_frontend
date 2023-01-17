@@ -9,6 +9,8 @@ footer, nav {
   grid-template-rows: 150px auto
 }
 
+
+
 .login-entrar{
     margin: 0 auto;
     width: 50%;
@@ -20,7 +22,7 @@ footer, nav {
 .Esqueceu-senha{
     text-align: right;
     margin-bottom: 0 auto;
-    background-color: aqua;
+    text-decoration: none;
 }
 
 .teste{
@@ -32,16 +34,39 @@ footer, nav {
 }
 
 .ficar-conectado{
-
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .conectado{
     width: 15px;
 }
 
+.tirar-decoracao{
+    text-decoration: none;
+}
+
+.paragrafo-topo{
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 870px) {
+    .forms-salvar{
+        width: 47.6%;
+        height: 35px;
+    }
+}
+
 @media screen and (max-width: 660px){
     .login-entrar{
         width: 70%;
+    }
+
+    .forms-salvar{
+        width: 70%;
+        height: 35px;
     }
 }
 
@@ -49,4 +74,27 @@ footer, nav {
     .login-entrar{
         width: 100%;
     }
+
+    .forms-salvar{
+        width: 100%;
+        height: 35px;
+    }
+
+    .ficar-conectado{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    
+}
+
+@media screen and (max-width: 420px){
+    .ficar-conectado{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    
 }
