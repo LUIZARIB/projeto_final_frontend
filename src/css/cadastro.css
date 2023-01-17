@@ -8,11 +8,9 @@
   align-items: center;
   flex-wrap: wrap;
   align-content: center;
-  padding-top: 3%;
   background-color: whitesmoke;
   color: rgb(118, 111, 111);
   max-width: auto;
-  background-color: aquamarine;
   
 }
 
@@ -26,7 +24,9 @@
   color: white;
   padding: 10px;
   width: 100%;
-  
+  cursor: pointer;
+  font-weight: bold;
+  gap: 4px;
 
 }
 input
@@ -60,7 +60,10 @@ input
 .entrar
 {
   text-align: center;
-  padding-top: 2px;
+}
+a
+{
+  text-decoration: none;
 }
 @media screen and (max-width: 390px)
 { 
@@ -81,8 +84,12 @@ input
       margin-bottom: 15px;
       padding: 7px;
       margin-top: 6px;
-      width: auto;
+      width: 275px;
       
        
+    }
+    .entrar
+    {
+      margin-top: 5px;
     }
 }

@@ -1,4 +1,7 @@
-
+form
+{
+  width: 400px;
+}
 .data
 {
    
@@ -6,30 +9,16 @@
   flex-direction: row;
   justify-content: space-between;
   align-items:center;
-  width: 40% 40% 20%;
-  height: 70px;
-  
-    
-}
-.data-1
-{
-   
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items:center;
-  width: 40% 40% 20%;
-  height: 70px;
-  
+  width: 100%;
+  margin-top: auto;
     
 }
 .menor
 {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 3%;
-  margin-top: 23px;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin-top: 3px;
   
 }
 .p1
@@ -40,18 +29,15 @@
   gap: 4px;
   width: 50px;
   
-  
-  
-
 }
 
 .inp 
 {
-  width: 300px;
+  width: 280px;
 }
 .inp-0
 {
-  width: 30%;
+  width: 100px;
 }
 input
 {
@@ -63,15 +49,17 @@ input
 .input-1
 {
   height: 60px;
+  width: 100%;
   
 }
 .quant
 {
-  width: 70px;
+  width: 80px;
+  margin-bottom: 0px;
 }
 .select
 {
-  width: 127px;
+  width: 140px;
   height: 32px;
   margin-top: 6px;
   
@@ -84,38 +72,60 @@ input
   background-color: #eb3752;
   border: none;
   color: white;
-  padding: 15px;
-  width: 100%;  
-
+  padding: 10px;
+  width: 100%;
+  cursor: pointer; 
+  text-align: center;
+  font-weight: bold;
+  gap: 4px;
 }
 .foto
 {
   margin-top: 15px;
   align-items: left;
 }
-
 @media screen and (max-width: 390px)
-{
-  
-  .menor-1
+{ 
+  .logo 
   {
-    display: block;
-    
+    width: 100%;
   }
-  .inp-1
+  .entrar
   {
-    width: 275px;
+    margin-top: 5px;
   }
-  .input-1
+
+  form
   {
-    width: 275px;
-    height: 60px;
+    width: 80%;
   }
   .data
     {
       display: block;
       justify-content: center;
       align-items: center;
-    }
-    
+      width: 100%;
+    } 
+  .menor
+  {
+    width: 100%;
+  }
+  .inp
+  {
+    width: 100%;
+  }
+  .inp-0
+  {
+    width: 100%;
+  }
+  p
+  {
+    display: block;
+    width: 100%;
+  }
+  .quant
+  {
+    display: block;
+    width: 100%;
+  }
 }
