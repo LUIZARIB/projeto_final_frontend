@@ -78,13 +78,19 @@ input
   text-align: center;
   font-weight: bold;
   gap: 4px;
+
+}
+.botao:hover
+{
+  transform: scale(1.01);
+  transition: all 0.5s;
 }
 .foto
 {
   margin-top: 15px;
   align-items: left;
 }
-@media screen and (max-width: 390px)
+@media screen and (max-width: 414px)
 { 
   .logo 
   {
@@ -127,5 +133,11 @@ input
   {
     display: block;
     width: 100%;
+  }
+  .select
+  {
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 15px;
   }
 }

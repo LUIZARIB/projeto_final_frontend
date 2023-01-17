@@ -29,6 +29,11 @@
   gap: 4px;
 
 }
+.botao:hover
+{
+  transform: scale(1.01);
+  transition: all 0.5s;
+}
 input
 {
 
