@@ -186,7 +186,7 @@ form {
 
     .logo {
         width: 90%;
-        justify-content: space-around;
+       display: block;
     }
 
     .logo-imagem {
