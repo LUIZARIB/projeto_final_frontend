@@ -17,7 +17,7 @@ nav {
     text-align: center;
     margin: 50px 20px 0;
     font-family: "29LT Azer";
-    font-size: 25px;
+    font-size: 30px;
 }
 
 /*Corpo do formulário*/
@@ -159,34 +159,32 @@ form {
     }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:379px) {
 
     .dados-pessoais {
-        width: 97%;
+        width: 100%;
     }
 
     form {
         width: 100%;
-        padding: 0;
     }
 
     .estilo-form-01 {
         margin-top: 8%;
     }
 
-    .estilo-forms,
-    .estilo2 {
+    .estilo-forms,.estilo2 {
         width: 100%;
     }
 
     .forms-salvar,
     .compras {
-        width: 92.2%;
+        width: 93%;
     }
 
     .logo {
         width: 90%;
-       display: block;
+        display: block;
     }
 
     .logo-imagem {
