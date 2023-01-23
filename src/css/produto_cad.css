@@ -23,6 +23,11 @@
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(216, 216, 216);
 }
+.pote
+{
+  width: 150px;
+  height: 150px;
+}
 .bt
 {
     width: 20%;
@@ -74,7 +79,7 @@
     cursor: pointer;
     font-weight: bold;
     margin: 0 auto;
-    margin-top: 8px;
+    margin-top: 15px;
     height: 36px;
     align-items: center;
 }
@@ -86,52 +91,93 @@ a
 { 
   text-decoration: none;
 }
-@media screen and (max-width: 1236px)
-{
-  .principal-1
-  {
-    flex-wrap: wrap;
-  }
-  .foto
-  {
-    width: 20%;
-  }
-  .texto
-  {
-    width: 60%;
-  }
-}
-  
 
-@media screen and (max-width: 500px)
+@media screen and (max-width: 900px)
 {
+  .logo
+  {
+    width: 50%;
+  }
   .principal
   {
     width: 100%;
   }
   .principal-1
   {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+
+  }
+  .img-compras
+  {
+    width: 100%;
+  }
+  .img-itens
+  {
+    width: 85%;
     justify-content: center;
     align-items: center;
+  }
+  .data-compras
+  {
+    width: 60%;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 10px;
+    
+
+  }
+  
+  .boton-2
+  {  
+      width: 50%;
+  }
+
+}  
+
+@media screen and (max-width: 580px)
+{
+  .logo
+  {
+    width: 60%;
+  }
+  .principal
+  {
+    width: 100%;
+  }
+  .principal-1
+  {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 80%;
 
   }
-  .boton
+  .data-compras
+  {
+    width: 60%;
+  }
+  .boton-2
+  {  
+      width: 50%;
+  }
+
+}
+@media screen and (max-width: 380px)
 {
+.img-itens
+{
+  font-size: 17px;
+  margin-left: 1px;
+}
+h2
 
-    border-radius: 6px;
-    background-color: #eb3752;
-    border: none;
-    color: white;
-    padding: 10px;
-    cursor: pointer;
-    font-weight: bold;
-    gap: 4px;
-    margin-bottom: 5px;
-    width: 100%;
-
+{
+  font-size: 25px;
+}
 }
 
-}
 
