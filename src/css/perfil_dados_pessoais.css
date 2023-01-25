@@ -166,7 +166,7 @@ form {
     }
 
     form {
-        width: 100%;
+        width: 95%;
     }
 
     .estilo-form-01 {
@@ -180,6 +180,38 @@ form {
     .forms-salvar,
     .compras {
         width: 93%;
+    }
+
+    .logo {
+        width: 90%;
+        display: block;
+    }
+
+    .logo-imagem {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:442px) {
+    .dados-pessoais {
+        width: 100%;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .estilo-form-01 {
+        margin-top: 8%;
+    }
+
+    .estilo-forms,.estilo2 {
+        width: 100%;
+    }
+
+    .forms-salvar,
+    .compras {
+        width: 95%;
     }
 
     .logo {
