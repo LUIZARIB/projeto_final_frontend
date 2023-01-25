@@ -33,7 +33,7 @@ header {
   justify-content: center;
 }
 .logo-imagem {
-  max-width: 65%;
+  width: 55%;
 }
 .formulario {
   width: 100%;
@@ -156,16 +156,32 @@ main {
 }
 .promocao,
 .produtos {
-  margin-top: 50px;
+  margin-top: 20px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
+.produtos{
+  margin-bottom: 50px;
+}
+.novosProdutos{
+  margin-top: 50px;
+  text-align: center;
+  font-family: "29LT Azer", "monospace";
+  font-size: 30px;
+
+
+}
 .banner {
   width: 80%;
   margin: 0 5px;
+  border-radius: 10px;
+}
+.link-produto{
+  text-decoration: none;
+  color: black;
 }
 .card {
   font-family: Arial, Helvetica, sans-serif;
