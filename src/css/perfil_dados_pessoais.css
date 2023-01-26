@@ -11,6 +11,11 @@ nav {
     grid-template-rows: 150px auto
 }
 
+.tirar-decoracao-2{
+    text-decoration: none;
+    color: white;
+}
+
 /*Título do formulário*/
 .titulo-forms {
     color: #727272;
@@ -220,6 +225,6 @@ form {
     }
 
     .logo-imagem {
-        width: 100%;
+        width: 60%;
     }
 }
