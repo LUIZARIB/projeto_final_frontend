@@ -1,8 +1,14 @@
+.logo
+{
+  margin-top: 10px;
+  width: 30%;
+}
 .titulo
 {
-    color: rgb(118, 111, 111);
+    color: #7b7b7b;
     text-align: center;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 .principal
 {
@@ -82,6 +88,12 @@
     margin-top: 15px;
     height: 36px;
     align-items: center;
+    gap: 4px;
+}
+.boton-2:hover
+{
+  transform: scale(1.01);
+  transition: all 0.5s;
 }
 .texto
 {
@@ -96,7 +108,7 @@ a
 {
   .logo
   {
-    width: 50%;
+    width: 40%;
   }
   .principal
   {
@@ -113,7 +125,7 @@ a
   }
   .img-compras
   {
-    width: 100%;
+    width: 80%;
   }
   .img-itens
   {
@@ -134,16 +146,19 @@ a
   .boton-2
   {  
       width: 50%;
+      margin-bottom: 15px;
   }
 
 }  
-
-@media screen and (max-width: 580px)
+@media screen and (max-width: 899px) and (min-width: 380px)
 {
   .logo
   {
-    width: 60%;
+    width: 40%;
   }
+}
+@media screen and (max-width: 580px)
+{
   .principal
   {
     width: 100%;
@@ -156,6 +171,11 @@ a
     width: 80%;
 
   }
+  .titulo
+  {
+    font-size: 23px;
+
+  }
   .data-compras
   {
     width: 60%;
@@ -164,20 +184,52 @@ a
   {  
       width: 50%;
   }
+  .img-compras
+  {
+    width: 70%;
+  }
 
 }
 @media screen and (max-width: 380px)
 {
-.img-itens
-{
-  font-size: 17px;
-  margin-left: 1px;
-}
-h2
+  .logo{
+    width: 60%;
+  }
+  .titulo
+  {
+    font-size: 20px;
 
-{
-  font-size: 25px;
-}
+  }
+  .img-itens
+  {
+    font-size: 17px;
+    margin-left: 1px;
+  }
+  h2
+
+  {
+    font-size: 25px;
+  }
+  .boton-2
+  {
+    margin-bottom: 15px;
+    padding: 22px;
+    
+  }
+  .pote
+  {
+   width: 130px;
+   height: 130px;
+  }
+  .img-compras
+  {
+    width: 70%;
+  }
+  .icone
+  {
+    width: 25px;
+    height: 25px;
+  }
 }
 
 
