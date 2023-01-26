@@ -27,6 +27,7 @@
   cursor: pointer;
   font-weight: bold;
   gap: 4px;
+  font-family: "Mitr", sans-serif;
 
 }
 .botao:hover
@@ -66,6 +67,7 @@ input
 {
   text-align: center;
   margin-top: 8px;
+  font-family: "Mitr", sans-serif;
   
 }
 a
@@ -78,7 +80,7 @@ a
 { 
   .logo 
   {
-    width: 100%;
+    width: 70%;
   }
   
   .data

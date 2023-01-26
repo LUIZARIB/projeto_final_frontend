@@ -79,6 +79,7 @@ input
   text-align: center;
   font-weight: bold;
   gap: 4px;
+  font-family: "Mitr", sans-serif;
 
 }
 .botao:hover
@@ -90,6 +91,10 @@ input
 {
   margin-top: 15px;
   align-items: left;
+}
+.entrar
+{
+  font-family: "Mitr", sans-serif;
 }
 @media screen and (max-width: 500px)
 { 
