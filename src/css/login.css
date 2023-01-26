@@ -60,6 +60,10 @@ footer, nav {
     width: 50%;
 }
 
+.forms-salvar{
+    text-decoration: none;
+}
+
 @media screen and (max-width: 870px) {
     .forms-salvar{
         width: 47.6%;
