@@ -9,7 +9,7 @@
   flex-wrap: wrap;
   align-content: center;
   background-color: whitesmoke;
-  color: rgb(118, 111, 111);
+  color: #7b7b7b;
   max-width: auto;
   
 }
@@ -65,10 +65,14 @@ input
 .entrar
 {
   text-align: center;
+  margin-top: 8px;
+  
 }
 a
 {
   text-decoration: none;
+  color:#7b7b7b;
+  margin-left: 4px;
 }
 @media screen and (max-width: 390px)
 { 

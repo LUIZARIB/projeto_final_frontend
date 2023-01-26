@@ -1,6 +1,7 @@
 form
 {
   width: 400px;
+  
 }
 .data
 {
@@ -90,11 +91,11 @@ input
   margin-top: 15px;
   align-items: left;
 }
-@media screen and (max-width: 414px)
+@media screen and (max-width: 500px)
 { 
   .logo 
   {
-    width: 100%;
+    width: 80%;
   }
   .entrar
   {
@@ -140,4 +141,24 @@ input
     margin-top: 6px;
     margin-bottom: 15px;
   }
+  .botao
+  {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 390px)
+{
+  .logo
+  {
+    width: 70%;
+  }
+  form
+  {
+    width: 75%;
+  }
+  .botao
+  {
+    margin-bottom: 15px;
+  }
+
 }

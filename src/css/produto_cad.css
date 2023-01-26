@@ -1,8 +1,14 @@
+.logo
+{
+  margin-top: 10px;
+  width: 30%;
+}
 .titulo
 {
-    color: rgb(118, 111, 111);
+    color: #7b7b7b;
     text-align: center;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 .principal
 {
@@ -22,6 +28,11 @@
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(216, 216, 216);
+}
+.pote
+{
+  width: 150px;
+  height: 150px;
 }
 .bt
 {
@@ -74,9 +85,15 @@
     cursor: pointer;
     font-weight: bold;
     margin: 0 auto;
-    margin-top: 8px;
+    margin-top: 15px;
     height: 36px;
     align-items: center;
+    gap: 4px;
+}
+.boton-2:hover
+{
+  transform: scale(1.01);
+  transition: all 0.5s;
 }
 .texto
 {
@@ -86,24 +103,61 @@ a
 { 
   text-decoration: none;
 }
-@media screen and (max-width: 1236px)
+
+@media screen and (max-width: 900px)
 {
+  .logo
+  {
+    width: 40%;
+  }
+  .principal
+  {
+    width: 100%;
+  }
   .principal-1
   {
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+
   }
-  .foto
+  .img-compras
   {
-    width: 20%;
+    width: 80%;
   }
-  .texto
+  .img-itens
+  {
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+  }
+  .data-compras
   {
     width: 60%;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 10px;
+    
+
+  }
+  
+  .boton-2
+  {  
+      width: 50%;
+      margin-bottom: 15px;
+  }
+
+}  
+@media screen and (max-width: 899px) and (min-width: 380px)
+{
+  .logo
+  {
+    width: 40%;
   }
 }
-  
-
-@media screen and (max-width: 500px)
+@media screen and (max-width: 580px)
 {
   .principal
   {
@@ -111,27 +165,71 @@ a
   }
   .principal-1
   {
-    display: block;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 80%;
 
   }
-  .boton
+  .titulo
+  {
+    font-size: 23px;
+
+  }
+  .data-compras
+  {
+    width: 60%;
+  }
+  .boton-2
+  {  
+      width: 50%;
+  }
+  .img-compras
+  {
+    width: 70%;
+  }
+
+}
+@media screen and (max-width: 380px)
 {
+  .logo{
+    width: 60%;
+  }
+  .titulo
+  {
+    font-size: 20px;
 
-    border-radius: 6px;
-    background-color: #eb3752;
-    border: none;
-    color: white;
-    padding: 10px;
-    cursor: pointer;
-    font-weight: bold;
-    gap: 4px;
-    margin-bottom: 5px;
-    width: 100%;
+  }
+  .img-itens
+  {
+    font-size: 17px;
+    margin-left: 1px;
+  }
+  h2
 
+  {
+    font-size: 25px;
+  }
+  .boton-2
+  {
+    margin-bottom: 15px;
+    padding: 22px;
+    
+  }
+  .pote
+  {
+   width: 130px;
+   height: 130px;
+  }
+  .img-compras
+  {
+    width: 70%;
+  }
+  .icone
+  {
+    width: 25px;
+    height: 25px;
+  }
 }
 
-}
 
