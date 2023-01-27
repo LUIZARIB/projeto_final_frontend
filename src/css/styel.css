@@ -1,4 +1,3 @@
-@import url(//db.onlinewebfonts.com/c/583f24bc5c8de75d499c7b5993058a70?family=29LT+Azer);
 * {
   padding: 0;
   margin: 0;
@@ -22,7 +21,7 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: #e6eafd;
-  font-family: "29LT Azer", "monospace";
+  font-family: "Mitr", sans-serif;
 }
 .logo,
 .pesquisa,
@@ -65,7 +64,6 @@ header {
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-size: 20px;
   color: black;
   font-weight: bold;
 }
@@ -79,9 +77,8 @@ header {
 nav {
   grid-area: nav;
   display: flex;
-  font-family: "29LT Azer", "monospace";
+  font-family: "Mitr", sans-serif;
   font-weight: bold;
-  font-size: 22px;
   background-color: #ff7186;
   align-items: center;
 }
@@ -110,7 +107,7 @@ nav {
   border-bottom-right-radius: 5px;
 }
 .menu-responsivo-list {
-  font-family: "29LT Azer", "monospace";
+  font-family: "Mitr", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -123,7 +120,6 @@ nav {
 }
 .menu-responsivo-link {
   text-decoration: none;
-  font-size: 30px;
   color: white;
   width: 100%;
   display: flex;
@@ -132,8 +128,8 @@ nav {
   padding: 5px;
 }
 .titulo-categoria {
-  font-family: "29LT Azer", "monospace";
-  font-size: 35px;
+  font-family: "Mitr", sans-serif;
+  font-size: 18px;
   color: white;
   padding: 30px 0 15px;
   text-align: center;
@@ -169,10 +165,8 @@ main {
 .novosProdutos{
   margin-top: 50px;
   text-align: center;
-  font-family: "29LT Azer", "monospace";
+  font-family: "Mitr", sans-serif;
   font-size: 30px;
-
-
 }
 .banner {
   width: 80%;
@@ -184,7 +178,6 @@ main {
   color: black;
 }
 .card {
-  font-family: Arial, Helvetica, sans-serif;
   background-color: #ffffff;
   margin: 10px;
   padding: 20px;
@@ -193,6 +186,7 @@ main {
   flex-direction: column;
   border-radius: 10px;
   box-shadow: 0 0 20px rgb(243, 233, 233);
+  font-size: 18px;
 }
 .img-card {
   width: 100%;
@@ -215,9 +209,11 @@ main {
   font-weight: bold;
   cursor: pointer;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 14px;
   width: 100%;
   text-align: center;
+  font-family: "Mitr", sans-serif;
+
 }
 .btn-comprar:hover {
   background-color: #e64961;
@@ -226,8 +222,7 @@ footer {
   grid-area: footer;
   background-color: #ff7186;
   color: white;
-  font-family: "29LT Azer", "monospace";
-  font-size: 20px;
+  font-family: "Mitr", sans-serif;
   display: flex;
   align-items: center;
   justify-content: space-around;
